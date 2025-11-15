@@ -1,0 +1,219 @@
+{
+    "title": "",
+    "columns": 3,
+    "body": {
+        "type": "item",
+        "item": {
+            "id": "diamond_sword"
+        },
+        "description": [
+            {
+                "text": "请选择你的能力"
+            }
+        ],
+        "show_tooltip": false
+    },
+    "type": "multi_action",
+    "actions": [
+        {
+            "label": {
+                "text": "能力：挖矿工艺"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_Miner set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：潜行者"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_Stealth set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：怪物杀手"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_MobKiller set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：双倍护甲"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_DoubledArmor set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：超速移动"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_Speed set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：爆炸箭矢"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_Explosive set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "初始：-"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "say \"\""
+            }
+        },
+        {
+            "label": {
+                "text": "初始：-"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "say \"\""
+            }
+        },
+        {
+            "label": {
+                "text": "初始：潘多拉魔盒"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Armor_Pandora set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "初始：三叉戟X鞘翅"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Armor_Trident set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "初始：风刃X重锤"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Armor_Mace set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "初始：炼铜癖"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Armor_Copper set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "重置"
+            },
+            "width": 152,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_ResetAbility set 1"
+            }
+        },
+        {
+            "label": {
+                "text": "退出"
+            },
+            "action": {
+                "type": "change_page",
+                "page": 1
+            },
+            "width": 152
+        }
+    ]
+}
