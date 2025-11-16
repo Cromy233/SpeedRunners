@@ -5,3 +5,4 @@ execute if predicate speedrunner:0.054348chance run item replace entity @s armor
 execute if predicate speedrunner:0.051546chance run item replace entity @s armor.feet with copper_boots
 execute if predicate speedrunner:0.020202chance run item replace entity @s armor.feet with diamond_boots
 execute if predicate speedrunner:0.01chance run item replace entity @s armor.feet with netherite_boots
+# 为什么不用return run?
