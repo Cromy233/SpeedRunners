@@ -32,21 +32,6 @@
         },
         {
             "label": {
-                "text": "能力：潜行者"
-            },
-            "tooltip": [
-                {
-                    "text": "这里是能力描述，暂时空着"
-                }
-            ],
-            "width": 100,
-            "action": {
-                "type": "minecraft:run_command",
-                "command": "trigger SR_Ability_Stealth set 2"
-            }
-        },
-        {
-            "label": {
                 "text": "能力：怪物杀手"
             },
             "tooltip": [
@@ -58,6 +43,36 @@
             "action": {
                 "type": "minecraft:run_command",
                 "command": "trigger SR_Ability_MobKiller set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：附魔师"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_Enchant set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：忍者"
+            },
+            "tooltip": [
+                {
+                    "text": "这里是能力描述，暂时空着"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_Stealth set 2"
             }
         },
         {
@@ -77,7 +92,7 @@
         },
         {
             "label": {
-                "text": "能力：超速移动"
+                "text": "能力：超视距"
             },
             "tooltip": [
                 {
@@ -87,22 +102,7 @@
             "width": 100,
             "action": {
                 "type": "minecraft:run_command",
-                "command": "trigger SR_Ability_Speed set 2"
-            }
-        },
-        {
-            "label": {
-                "text": "能力：爆炸箭矢"
-            },
-            "tooltip": [
-                {
-                    "text": "这里是能力描述，暂时空着"
-                }
-            ],
-            "width": 100,
-            "action": {
-                "type": "minecraft:run_command",
-                "command": "trigger SR_Ability_Explosive set 2"
+                "command": "trigger SR_Ability_POV set 2"
             }
         },
         {
@@ -122,7 +122,7 @@
         },
         {
             "label": {
-                "text": "初始：-"
+                "text": "初始：百弓"
             },
             "tooltip": [
                 {
@@ -132,7 +132,7 @@
             "width": 100,
             "action": {
                 "type": "minecraft:run_command",
-                "command": "say \"\""
+                "command": "trigger SR_Armor_Bows set 2"
             }
         },
         {

@@ -5,8 +5,9 @@ scoreboard players enable @a SR_Ability_Miner
 scoreboard players enable @a SR_Ability_Stealth
 scoreboard players enable @a SR_Ability_MobKiller
 scoreboard players enable @a SR_Ability_DoubledArmor
-scoreboard players enable @a SR_Ability_Speed
-scoreboard players enable @a SR_Ability_Explosive
+scoreboard players enable @a SR_Ability_POV
+scoreboard players enable @a SR_Ability_Enchant
+scoreboard players enable @a SR_Armor_Bows
 scoreboard players enable @a SR_Armor_Pandora
 scoreboard players enable @a SR_Armor_Trident
 scoreboard players enable @a SR_Armor_Mace
@@ -23,8 +24,9 @@ execute as @a[scores={SR_Ability_Miner=2}] if score @s SR_AbilityCount >= $Max S
 execute as @a[scores={SR_Ability_MobKiller=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Ability_MobKiller 0
 execute as @a[scores={SR_Ability_Stealth=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Ability_Stealth 0
 execute as @a[scores={SR_Ability_DoubledArmor=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Ability_DoubledArmor 0
-execute as @a[scores={SR_Ability_Speed=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Ability_Speed 0
-execute as @a[scores={SR_Ability_Explosive=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Ability_Explosive 0
+execute as @a[scores={SR_Ability_POV=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Ability_POV 0
+execute as @a[scores={SR_Ability_Enchant=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Ability_Enchant 0
+execute as @a[scores={SR_Armor_Bows=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Armor_Bows 0
 execute as @a[scores={SR_Armor_Pandora=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Armor_Pandora 0
 execute as @a[scores={SR_Armor_Trident=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Armor_Trident 0
 execute as @a[scores={SR_Armor_Mace=2}] if score @s SR_AbilityCount >= $Max SR_AbilityCount run scoreboard players set @s SR_Armor_Mace 0
@@ -35,8 +37,9 @@ scoreboard players set @a[scores={SR_Ability_Miner=2}] SR_Ability_Miner 1
 scoreboard players set @a[scores={SR_Ability_MobKiller=2}] SR_Ability_MobKiller 1
 scoreboard players set @a[scores={SR_Ability_Stealth=2}] SR_Ability_Stealth 1
 scoreboard players set @a[scores={SR_Ability_DoubledArmor=2}] SR_Ability_DoubledArmor 1
-scoreboard players set @a[scores={SR_Ability_Speed=2}] SR_Ability_Speed 1
-scoreboard players set @a[scores={SR_Ability_Explosive=2}] SR_Ability_Explosive 1
+scoreboard players set @a[scores={SR_Ability_POV=2}] SR_Ability_POV 1
+scoreboard players set @a[scores={SR_Ability_Enchant=2}] SR_Ability_Enchant 1
+scoreboard players set @a[scores={SR_Armor_Bows=2}] SR_Armor_Bows 1
 scoreboard players set @a[scores={SR_Armor_Pandora=2}] SR_Armor_Pandora 1
 scoreboard players set @a[scores={SR_Armor_Trident=2}] SR_Armor_Trident 1
 scoreboard players set @a[scores={SR_Armor_Mace=2}] SR_Armor_Mace 1
@@ -48,8 +51,9 @@ execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Abili
 execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Ability_MobKiller
 execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Ability_Stealth
 execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Ability_DoubledArmor
-execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Ability_Speed
-execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Ability_Explosive
+execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Ability_POV
+execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Ability_Enchant
+execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Armor_Bows
 execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Armor_Pandora
 execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Armor_Trident
 execute as @a run scoreboard players operation @s SR_AbilityCount += @s SR_Armor_Mace
