@@ -9,7 +9,7 @@ execute if score $Class SR_TopDisaster matches 1 run scoreboard players set $Ena
 execute if score $Class SR_TopDisaster matches 2 run scoreboard players set $Enable SR_Disaster_Telepoint 1
 execute if score $Class SR_TopDisaster matches 3 run scoreboard players set $Enable SR_Disaster_Curse 1
 
-execute if score $Class SR_TopDisaster matches 1 run scoreboard players set $Speed SR_TopDisaster 1
+execute if score $Class SR_TopDisaster matches 1 run scoreboard players set $Speed SR_TopDisaster 3
 execute if score $Class SR_TopDisaster matches 2 run scoreboard players set $Speed SR_TopDisaster 2
 execute if score $Class SR_TopDisaster matches 3 run scoreboard players set $Speed SR_TopDisaster 5
 
