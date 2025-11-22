@@ -43,3 +43,10 @@ execute if score $Enable SR_Disaster_Scale matches 1 run function speedrunner:di
 execute if score $Enable SR_Disaster_Knockback matches 1 run function speedrunner:disaster/knockback
 execute if score $Enable SR_Disaster_Poisonous matches 1 run function speedrunner:disaster/poisonous
 execute if score $Enable SR_Disaster_AntiGravity matches 1 run function speedrunner:disaster/antigravity
+
+# 中立灾难
+execute if score $Enable SR_Disaster_Heavyrain matches 1 run function speedrunner:disaster/heavyrain
+execute if score $Enable SR_Disaster_DayNight matches 1 run function speedrunner:disaster/daynight
+execute if score $Enable SR_Disaster_NoGravity matches 1 run function speedrunner:disaster/nogravity
+execute if score $Enable SR_Disaster_Ghast matches 1 run function speedrunner:disaster/ghast
+execute if score $Enable SR_Disaster_Ender matches 1 run function speedrunner:disaster/ender

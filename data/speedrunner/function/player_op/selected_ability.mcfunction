@@ -1,0 +1,15 @@
+### 未做完
+tellraw @a "你已选择的能力："
+tellraw @a[scores={SR_Armor_Bows=1}] "【初始：射手】"
+tellraw @a[scores={SR_Armor_Copper=1}] "【初始：炼铜】"
+tellraw @a[scores={SR_Armor_Mace=1}] "【初始：风刃X重锤】"
+tellraw @a[scores={SR_Armor_Shulker=1}] "【初始：潜影盒】"
+tellraw @a[scores={SR_Armor_Trident=1}] "【初始：三叉戟X鞘翅】"
+tellraw @a[scores={SR_Armor_Vault=1}] "【初始：宝库】"
+
+tellraw @a[scores={SR_Ability_Miner=1}] "【能力：矿工】"
+tellraw @a[scores={SR_Ability_Killer=1}] "【能力：怪物猎人】"
+tellraw @a[scores={SR_Ability_Enchanter=1}] "【能力：附魔师】"
+tellraw @a[scores={SR_Ability_Sneak=1}] "【能力：潜行】"
+tellraw @a[scores={SR_Ability_DoubledArmor=1}] "【能力：双倍护甲】"
+tellraw @a[scores={SR_Ability_POV=1}] "【能力：超视距】"

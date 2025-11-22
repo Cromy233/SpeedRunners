@@ -21,7 +21,7 @@ scoreboard players set $Max SR_AbilityCount 5
 
 scoreboard objectives add SR_Armor_Shulker trigger "初始：潜影盒"
 scoreboard objectives add SR_Armor_Vault trigger "初始：宝库"
-scoreboard objectives add SR_Armor_Copper trigger "初始：炼铜癖"
+scoreboard objectives add SR_Armor_Copper trigger "初始：炼铜"
 scoreboard objectives add SR_Armor_Bows trigger "初始：射手"
 scoreboard objectives add SR_Armor_Trident trigger "初始：三叉戟X鞘翅"
 scoreboard objectives add SR_Armor_Mace trigger "初始：风刃X重锤"
