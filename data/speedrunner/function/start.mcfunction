@@ -5,6 +5,7 @@ execute as @a at @s run playsound minecraft:block.note_block.pling player @s ~ ~
 execute as @a at @s run playsound minecraft:entity.player.levelup player @s ~ ~ ~ 1 1
 effect clear @a saturation
 effect clear @a weakness
+effect clear @a resistance
 
 ### 随机传送
 worldborder set 1001

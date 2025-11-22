@@ -1,4 +1,5 @@
 gamerule sendCommandFeedback false
+execute as @a run attribute @s max_health base set 40
 
 fill ~2 ~ ~-1 ~2 ~ ~1 minecraft:end_portal_frame[facing=west]
 fill ~-2 ~ ~-1 ~-2 ~ ~1 minecraft:end_portal_frame[facing=east]
@@ -11,6 +12,7 @@ setblock ~ ~ ~ minecraft:pale_oak_sign{is_waxed:true,front_text:{has_glowing_tex
 execute align xyz run summon marker ~.5 ~ ~.5 {Tags:["SR_Center"]}
 effect give @a weakness infinite 255 true
 effect give @a saturation infinite 255 true
+effect give @a resistance infinite 255 true
 
 scoreboard objectives add SR_OpenMenu trigger "开启面板"
 scoreboard objectives add SR_ResetAbility trigger "重置能力"
