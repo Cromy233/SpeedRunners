@@ -9,7 +9,7 @@ effect clear @a resistance
 
 ### 随机传送
 worldborder set 1001
-execute at @n[tag=SR_Center] run spreadplayers ~ ~ 800 1000 true @a[gamemode=!spectator]
+execute at @n[tag=SR_Center] run spreadplayers ~ ~ 700 500 true @a[gamemode=!spectator]
 
 ### 初始装备
 loot give @a[scores={SR_Armor_Shulker=1}] loot speedrunner:armor/shulker
