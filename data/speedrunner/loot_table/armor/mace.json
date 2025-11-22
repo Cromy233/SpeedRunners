@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "mace",
+                    "functions": [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "density": 3
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "expension:get_item/wind_blade"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

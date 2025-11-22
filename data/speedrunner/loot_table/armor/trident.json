@@ -1,0 +1,30 @@
+{
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "trident",
+                    "functions": [
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "riptide": 3
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1
+        },
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "elytra"
+                }
+            ],
+            "rolls": 1
+        }
+    ]
+}

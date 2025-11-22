@@ -17,116 +17,56 @@
     "actions": [
         {
             "label": {
-                "text": "能力：挖矿工艺"
+                "text": "初始：潜影盒"
             },
             "tooltip": [
                 {
-                    "text": "这里是能力描述，暂时空着"
+                    "text": "获得潜影盒*3"
                 }
             ],
             "width": 100,
             "action": {
                 "type": "minecraft:run_command",
-                "command": "trigger SR_Ability_Miner set 2"
+                "command": "trigger SR_Armor_Shulker set 2"
             }
         },
         {
             "label": {
-                "text": "能力：怪物杀手"
+                "text": "初始：宝库"
             },
             "tooltip": [
                 {
-                    "text": "这里是能力描述，暂时空着"
+                    "text": "获得宝库*16、钥匙*16"
                 }
             ],
             "width": 100,
             "action": {
                 "type": "minecraft:run_command",
-                "command": "trigger SR_Ability_MobKiller set 2"
+                "command": "trigger SR_Armor_Vault set 2"
             }
         },
         {
             "label": {
-                "text": "能力：附魔师"
+                "text": "初始：炼铜"
             },
             "tooltip": [
                 {
-                    "text": "这里是能力描述，暂时空着"
+                    "text": "获得铜块*64"
                 }
             ],
             "width": 100,
             "action": {
                 "type": "minecraft:run_command",
-                "command": "trigger SR_Ability_Enchant set 2"
+                "command": "trigger SR_Armor_Copper set 2"
             }
         },
         {
             "label": {
-                "text": "能力：忍者"
+                "text": "初始：弓弩"
             },
             "tooltip": [
                 {
-                    "text": "这里是能力描述，暂时空着"
-                }
-            ],
-            "width": 100,
-            "action": {
-                "type": "minecraft:run_command",
-                "command": "trigger SR_Ability_Stealth set 2"
-            }
-        },
-        {
-            "label": {
-                "text": "能力：双倍护甲"
-            },
-            "tooltip": [
-                {
-                    "text": "这里是能力描述，暂时空着"
-                }
-            ],
-            "width": 100,
-            "action": {
-                "type": "minecraft:run_command",
-                "command": "trigger SR_Ability_DoubledArmor set 2"
-            }
-        },
-        {
-            "label": {
-                "text": "能力：超视距"
-            },
-            "tooltip": [
-                {
-                    "text": "这里是能力描述，暂时空着"
-                }
-            ],
-            "width": 100,
-            "action": {
-                "type": "minecraft:run_command",
-                "command": "trigger SR_Ability_POV set 2"
-            }
-        },
-        {
-            "label": {
-                "text": "初始：-"
-            },
-            "tooltip": [
-                {
-                    "text": "这里是能力描述，暂时空着"
-                }
-            ],
-            "width": 100,
-            "action": {
-                "type": "minecraft:run_command",
-                "command": "say \"\""
-            }
-        },
-        {
-            "label": {
-                "text": "初始：百弓"
-            },
-            "tooltip": [
-                {
-                    "text": "这里是能力描述，暂时空着"
+                    "text": "获得弓*1、弩*1、箭*16（随机附魔，弓保底无限，弩保底快速装填III）"
                 }
             ],
             "width": 100,
@@ -137,26 +77,11 @@
         },
         {
             "label": {
-                "text": "初始：潘多拉魔盒"
-            },
-            "tooltip": [
-                {
-                    "text": "这里是能力描述，暂时空着"
-                }
-            ],
-            "width": 100,
-            "action": {
-                "type": "minecraft:run_command",
-                "command": "trigger SR_Armor_Pandora set 2"
-            }
-        },
-        {
-            "label": {
                 "text": "初始：三叉戟X鞘翅"
             },
             "tooltip": [
                 {
-                    "text": "这里是能力描述，暂时空着"
+                    "text": "获得激流III三叉戟、鞘翅"
                 }
             ],
             "width": 100,
@@ -171,7 +96,7 @@
             },
             "tooltip": [
                 {
-                    "text": "这里是能力描述，暂时空着"
+                    "text": "获得风刃、致密III重锤"
                 }
             ],
             "width": 100,
@@ -182,17 +107,92 @@
         },
         {
             "label": {
-                "text": "初始：炼铜癖"
+                "text": "能力：矿工"
             },
             "tooltip": [
                 {
-                    "text": "这里是能力描述，暂时空着"
+                    "text": "镐子自带时运III、触及延伸III；右键进行盾构"
                 }
             ],
             "width": 100,
             "action": {
                 "type": "minecraft:run_command",
-                "command": "trigger SR_Armor_Copper set 2"
+                "command": "trigger SR_Ability_Miner set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：怪物猎人"
+            },
+            "tooltip": [
+                {
+                    "text": "剑斧自带横扫之刃III、亡灵杀手V、节肢杀手V、抢夺V"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_Killer set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：附魔师"
+            },
+            "tooltip": [
+                {
+                    "text": "随时间获得经验；到达33级时消耗3级生成随机附魔书"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_Enchanter set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：潜行"
+            },
+            "tooltip": [
+                {
+                    "text": "移动速度+20%；潜行时不减速且跳跃高度增加，并获得隐身"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_Sneak set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：双倍护甲"
+            },
+            "tooltip": [
+                {
+                    "text": "装备提供双倍的护甲值和盔甲韧性"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_DoubledArmor set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "能力：超视距"
+            },
+            "tooltip": [
+                {
+                    "text": "第三人称视野扩大；触及距离+2"
+                }
+            ],
+            "width": 100,
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "trigger SR_Ability_POV set 2"
             }
         },
         {

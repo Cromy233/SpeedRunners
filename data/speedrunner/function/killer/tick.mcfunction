@@ -1,0 +1,1 @@
+execute if items entity @s weapon.mainhand #enchantable/sharp_weapon run item modify entity @s weapon.mainhand speedrunner:killer/enchantment

@@ -1,0 +1,7 @@
+{
+    "function": "set_enchantments",
+    "enchantments": {
+        "expension:long_reach": 3,
+        "fortune": 3
+    }
+}

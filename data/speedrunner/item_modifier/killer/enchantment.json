@@ -1,0 +1,9 @@
+{
+    "function": "set_enchantments",
+    "enchantments": {
+        "sweeping_edge": 3,
+        "smite": 5,
+        "bane_of_arthropods": 5,
+        "looting": 5
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "speedrunner:miner": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": "#minecraft:pickaxes"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "speedrunner:miner/tunneling"
+    }
+}

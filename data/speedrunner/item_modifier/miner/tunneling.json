@@ -1,0 +1,8 @@
+{
+    "function": "set_components",
+    "components": {
+        "blocks_attacks": {
+            "disable_cooldown_scale": 0
+        }
+    }
+}
